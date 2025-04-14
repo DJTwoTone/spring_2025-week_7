@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* Header styling */
+header {
+  display: flex; /* Enables Flexbox */
+  justify-content: space-between; /* Space out title and nav */
+  align-items: center; /* Vertically center items in header */
+  background-color: #333;
+  padding: 1rem;
+}
+
+/* Title (logo/text) */
+header h1 {
+  color: #fff;
+  margin: 0; /* remove default margin */
+}
+
+/* Navigation */
+nav a {
+  color: #fff;
+  margin: 0 0.75rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}

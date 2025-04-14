@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  /* Try changing these properties: */
+  justify-content: space-around; /* flex-start, center, flex-end, space-between, space-evenly */
+  align-items: center; /* flex-start, center, flex-end, stretch, baseline */
+  height: 200px;
+  border: 2px dashed #999;
+  margin-bottom: 1rem;
+}
+.item {
+  background-color: #4caf50;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  margin: 0 5px;
+}

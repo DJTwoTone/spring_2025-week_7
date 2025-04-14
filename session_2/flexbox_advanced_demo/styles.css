@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  gap: 10px;
+  border: 2px solid #333;
+  padding: 10px;
+  /* Try adjusting these: */
+  /* flex-wrap: wrap; */
+}
+.box {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  /* flex: grow shrink basis */
+  flex: 1 1 150px; /* e.g. flex: 2 1 200px or flex: 0 1 200px, etc. */
+}

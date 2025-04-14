@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #fafafa;
+}
+h1 {
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 0;
+}
+.gallery-container {
+  display: grid;
+  /* 
+      auto-fit tries to fit as many columns as possible;
+      each column is at least 200px wide but can grow to fill remaining space 
+    */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+.photo {
+  background-color: #ccc;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #333;
+}
+/* Optional styling for real images if used:
+  .photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+  } */
